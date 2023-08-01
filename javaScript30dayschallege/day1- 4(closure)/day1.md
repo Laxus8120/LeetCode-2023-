@@ -103,7 +103,7 @@ console.log(counter2.increment());
 ```
 
 * so, the output is obvious that each counter has its own value because we creating a new instance.
-* but how js doing that we know closures tell us that  increment function have access to value variable , but every time createCounter function is called we are creating a new value variable so each increment have copy to its own copy of value and when we are returning increment function we are exposing access to ur increment function. so this is `hidden state `   `let value = 0;` 
+* but how js doing that we know closures tell us that  increment function have access to `value variable` , but every time createCounter function is called we are creating a new value variable so each increment have copy to its own copy of value and when we are returning increment function we are exposing access to ur increment function. so this is `hidden state `   `let value = 0;` 
 
 ### ...args(spread operator)
 
