@@ -2,6 +2,9 @@
 
 ## why we need it ?
 
+    * why we need it because of  the concept of "this" , how this work in js and because of that we need to specify the context of "this" ,
+    *By using apply(), you can set the value of `this` explicitly when calling a function. In regular function calls, the value of `this` depends on how the function is called. However, when using apply(), you can control the value of `this`, which is helpful in certain object-oriented programming patterns and when working with callbacks or event handlers. 
+    
 ## How we use it ?
 
 Let's say you have a function which just log the out the name.
