@@ -1,8 +1,12 @@
-const person = {
-  name : 'hemant'
+function fun(name){
+    this.name = name;
+    this.age = 16
+
+    const arrowFunction = () =>{
+        return 'hello'
+    }
+    this.arrowFunction = arrowFunction;
 }
 
-function printName(person){
-  console.log(person.name);
-}
-printName(person);
+const Fun = new fun('hemant')
+console.log(Fun)
